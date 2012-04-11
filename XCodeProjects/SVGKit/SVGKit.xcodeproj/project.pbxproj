@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BF5039E148C5FBC00CC7D17 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF5039D148C5FBC00CC7D17 /* libxml2.dylib */; };
-		3BF503A0148C5FC600CC7D17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF5039F148C5FC600CC7D17 /* UIKit.framework */; };
-		3BF503A2148C5FCE00CC7D17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF503A1148C5FCE00CC7D17 /* CoreGraphics.framework */; };
-		3BF503A4148C5FD400CC7D17 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF503A3148C5FD400CC7D17 /* QuartzCore.framework */; };
 		3BF503A5148C612100CC7D17 /* CAShapeLayerWithHitTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 66213548148AF80A006881E1 /* CAShapeLayerWithHitTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BF503A6148C612F00CC7D17 /* CAShapeLayerWithHitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 66213549148AF80A006881E1 /* CAShapeLayerWithHitTest.m */; };
 		3BF503A7148C614600CC7D17 /* CALayerWithChildHitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 66213547148AF80A006881E1 /* CALayerWithChildHitTest.m */; };
@@ -216,10 +212,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BF503A4148C5FD400CC7D17 /* QuartzCore.framework in Frameworks */,
-				3BF503A2148C5FCE00CC7D17 /* CoreGraphics.framework in Frameworks */,
-				3BF503A0148C5FC600CC7D17 /* UIKit.framework in Frameworks */,
-				3BF5039E148C5FBC00CC7D17 /* libxml2.dylib in Frameworks */,
 				66213433148AF2CF006881E1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -748,7 +740,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				DSTROOT = /tmp/SVGKitLibrary.dst;
 				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SVGKitLibrary/SVGKitLibrary-Prefix.pch";
@@ -768,7 +759,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				DSTROOT = /tmp/SVGKitLibrary.dst;
 				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SVGKitLibrary/SVGKitLibrary-Prefix.pch";
