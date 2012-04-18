@@ -207,6 +207,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
+=======
+				66213433148AF2CF006881E1 /* Foundation.framework in Frameworks */,
+>>>>>>> 18794527d0e16af02ed26e180e8b00b4e8e36dda
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -730,7 +734,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				DSTROOT = /tmp/SVGKitLibrary.dst;
 				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SVGKitLibrary/SVGKitLibrary-Prefix.pch";
@@ -750,7 +753,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				DSTROOT = /tmp/SVGKitLibrary.dst;
 				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SVGKitLibrary/SVGKitLibrary-Prefix.pch";
