@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BF5039E148C5FBC00CC7D17 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF5039D148C5FBC00CC7D17 /* libxml2.dylib */; };
-		3BF503A0148C5FC600CC7D17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF5039F148C5FC600CC7D17 /* UIKit.framework */; };
-		3BF503A2148C5FCE00CC7D17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF503A1148C5FCE00CC7D17 /* CoreGraphics.framework */; };
-		3BF503A4148C5FD400CC7D17 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF503A3148C5FD400CC7D17 /* QuartzCore.framework */; };
 		3BF503A5148C612100CC7D17 /* CAShapeLayerWithHitTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 66213548148AF80A006881E1 /* CAShapeLayerWithHitTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BF503A6148C612F00CC7D17 /* CAShapeLayerWithHitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 66213549148AF80A006881E1 /* CAShapeLayerWithHitTest.m */; };
 		3BF503A7148C614600CC7D17 /* CALayerWithChildHitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 66213547148AF80A006881E1 /* CALayerWithChildHitTest.m */; };
@@ -23,7 +19,6 @@
 		6604FCFD14A0CDAE00B4D2D9 /* SVGPointsAndPathsParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6604FCF414A0CDA800B4D2D9 /* SVGPointsAndPathsParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6604FCFE14A0CDAE00B4D2D9 /* SVGTextElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 6604FCF514A0CDA800B4D2D9 /* SVGTextElement.m */; };
 		6604FCFF14A0CDAE00B4D2D9 /* SVGTextElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 6604FCF614A0CDA800B4D2D9 /* SVGTextElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66213433148AF2CF006881E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66226B53148AEAB100EF4A6D /* Foundation.framework */; };
 		662134C3148AF4F7006881E1 /* SVGPattern.h in Headers */ = {isa = PBXBuildFile; fileRef = 66213496148AF4F7006881E1 /* SVGPattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		662134C4148AF4F7006881E1 /* SVGPattern.h in Headers */ = {isa = PBXBuildFile; fileRef = 66213496148AF4F7006881E1 /* SVGPattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		662134C5148AF4F7006881E1 /* SVGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 66213497148AF4F7006881E1 /* SVGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -136,10 +131,6 @@
 		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		32DBCF5E0370ADEE00C91783 /* SVGKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKit_Prefix.pch; sourceTree = "<group>"; };
-		3BF5039D148C5FBC00CC7D17 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/lib/libxml2.dylib; sourceTree = DEVELOPER_DIR; };
-		3BF5039F148C5FC600CC7D17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		3BF503A1148C5FCE00CC7D17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		3BF503A3148C5FD400CC7D17 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		6604FCF314A0CDA800B4D2D9 /* SVGPointsAndPathsParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGPointsAndPathsParser.m; sourceTree = "<group>"; };
 		6604FCF414A0CDA800B4D2D9 /* SVGPointsAndPathsParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGPointsAndPathsParser.h; sourceTree = "<group>"; };
 		6604FCF514A0CDA800B4D2D9 /* SVGTextElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGTextElement.m; sourceTree = "<group>"; };
@@ -201,9 +192,9 @@
 		6621354D148AF80A006881E1 /* SVGPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGPathView.m; sourceTree = "<group>"; };
 		6621354E148AF80A006881E1 /* SVGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGView.h; sourceTree = "<group>"; };
 		6621354F148AF80A006881E1 /* SVGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGView.m; sourceTree = "<group>"; };
-		66226B53148AEAB100EF4A6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* SVGKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVGKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8BE04101533C29E00C5546D /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/usr/lib/libxml2.dylib; sourceTree = DEVELOPER_DIR; };
 		C9379C5812777AEC00B0589E /* SVGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGView.h; sourceTree = "<group>"; };
 		C9379C5912777AEC00B0589E /* SVGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVGView.m; sourceTree = "<group>"; };
 		C95263281271228F00434805 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
@@ -216,11 +207,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BF503A4148C5FD400CC7D17 /* QuartzCore.framework in Frameworks */,
-				3BF503A2148C5FCE00CC7D17 /* CoreGraphics.framework in Frameworks */,
-				3BF503A0148C5FC600CC7D17 /* UIKit.framework in Frameworks */,
-				3BF5039E148C5FBC00CC7D17 /* libxml2.dylib in Frameworks */,
-				66213433148AF2CF006881E1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,11 +320,7 @@
 		66226B52148AEAB100EF4A6D /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3BF5039D148C5FBC00CC7D17 /* libxml2.dylib */,
-				3BF503A3148C5FD400CC7D17 /* QuartzCore.framework */,
-				3BF503A1148C5FCE00CC7D17 /* CoreGraphics.framework */,
-				3BF5039F148C5FC600CC7D17 /* UIKit.framework */,
-				66226B53148AEAB100EF4A6D /* Foundation.framework */,
+				B8BE04101533C29E00C5546D /* libxml2.dylib */,
 			);
 			name = "Linked Frameworks";
 			path = ..;

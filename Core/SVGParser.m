@@ -383,13 +383,19 @@ static void structuredError		(void * userData,
 		case XML_ERR_WARNING:
 		{
 			NSLog(@"Warning: parser reports: %@", objcError );
-		}break;
+			break;
+		}
 			
 		case XML_ERR_ERROR: /** FIXME: ADAM: "non-fatal" errors should be reported as warnings, but SVGDocument + this class need rewriting to return something better than "TRUE/FALSE" on parse finishing */
 		case XML_ERR_FATAL:
 		{
 			NSLog(@"Error: parser reports: %@", objcError );
 			[(SVGParser*) userData setParseError:objcError];
+			break ;
+		}
+		default:
+		{
+			NSLog(@"%s: unhandled errorLevel error=%@\n", __PRETTY_FUNCTION__, objcError);
 		}
 	}
 	
